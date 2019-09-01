@@ -1,0 +1,76 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 微軟正黑體;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f4f4ef;
+}
+.logo {
+    max-width: 160px;
+    font-size: 60px;
+    background-color: #3c3a3d;
+    color: #f4f4ef;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .form-control {
+
+    padding: 10px;
+    border-color: #824a3c;
+    border-width: 0.1rem;
+    position: relative;
+    height: auto;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 1.5rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+#titleSignin ,#checkboxRemember{
+    color: #3c3a3d;
+}
+
+.btn-color {
+    width: 50%;
+    color: #f4f4ef;
+    background-color: #3c3a3d;
+    border-color: #343a40;
+}
+
+.btn-color:hover {
+    color: #f4f4ef;
+    background-color: #3c3a3d;
+    border-color: #69825b;
+}
+
+.btn-color:focus, .btn-color.focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-color.disabled, .btn-color:disabled {
+    color: #f4f4ef;
+    background-color: #343a40;
+    border-color: #343a40;
+}

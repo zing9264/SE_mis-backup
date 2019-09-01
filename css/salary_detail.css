@@ -1,0 +1,50 @@
+.css_table{
+
+    display:table;
+
+    caption-side: bottom;
+    border-spacing: 15px 50px;
+    border-collapse: collapse;
+    border-color: blue ;
+    empty-cells: hide;
+    table-layout: auto;
+    border:2px solid black;
+}
+
+.css_tr{
+    display:table-row;
+}
+
+.css_thead{
+    display:table-header-group;
+}
+
+.css_th{
+    display:table-cell;
+    width: 5%;
+    border:1px groove gray ;
+}
+
+.css_td{
+    display:table-cell;
+    width: 5%;
+    border:1px groove gray ;
+}
+
+.css_tbody{
+    display:table-row-group
+}
+
+.css_colspan{
+    display:table-caption;
+    border:1px groove gray ;
+
+}
+
+.css_col{
+    display:table-column;
+}
+
+
+
+

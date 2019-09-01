@@ -1,0 +1,118 @@
+
+
+/*
+ * Base structure
+ */
+html,
+body {
+    height: 100%;
+    background-color:#f4f4ef;
+}
+
+body {
+    font-family: "微軟正黑體";
+    color: #3c3a3d;
+    padding: 0;
+    /*background-image:url( '../source/img/LOGO.png ' );
+    background-repeat:no-repeat;
+    background-position:center 40%;*/
+}
+
+/*
+ * Header
+ */
+.masthead {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.masthead-brand {
+    margin-bottom: 0;
+}
+
+/*最下方黑色的導覽條*/
+.nav-bg{
+    background-color: #3c3a3d ;
+}
+
+
+.nav-link {
+    padding: .35rem 0;  /*上 左 下 右*/
+    font-size: 1rem;
+
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: transparent;
+/*    border-bottom: .33rem solid #3c3a3d ;*/
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color:#f4f4ef;
+    border-bottom-color: #f4f4ef;
+}
+
+.nav-link {
+    margin-left: 0rem;
+    margin-right: 0rem;
+
+    border-radius: 15px;
+}
+
+.active {
+    color: #f4f4ef !important;
+    border-bottom-color: #f4f4ef  !important;
+}
+/*點進下方按鈕後頁面的上方導覽條*/
+.small_title{
+    border:1px solid #f4f4ef;
+    border-radius:10px;
+    color: #f4f4ef;
+    margin: 0rem;
+}
+
+/* main*/
+#data-view{
+    background-color: #f4f4ef;
+}
+
+.fixed-center{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    background-color: #f4f4ef
+}
+/*setting*/
+.settingDiv{
+    height:80px;
+    border:3px #cccccc solid;
+    border-radius: 10px;
+
+}
+/*list_template */
+.forLimitingListWidth{
+    width: 60%;
+    margin:0px auto;
+}
+@media (max-width: 576px) {
+
+    .forLimitingListWidth{
+        width: 100%;
+        margin: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .forLimitingListWidth{
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 1200px) {
+
+}
